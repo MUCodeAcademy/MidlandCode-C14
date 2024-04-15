@@ -11,9 +11,9 @@ We will need Git for this course as it will be used extensively. It can be downl
 
 ## What is Git?
 
-- Git is a VCS utility to allow for better version control
-- Can be utilized ideally through the command line but also through the use of applications such as GitHub Desktop.
-- Generally speaking is the go to VCS utility for a majority of tech companies.
+- Git is a utility to allow for better version control
+- Can be utilized through the command line but also through the use of applications such as GitHub Desktop.
+- Generally speaking, is the go to VCS utility for a majority of tech companies.
 - Utilizes commits and branches.
 
 ![Git Diagram](gitExample.jpg)
@@ -23,7 +23,7 @@ We will need Git for this course as it will be used extensively. It can be downl
 - Centralized site and hosting for git projects.
 - Allows for remote work and connection to projects with a VCS.
 - Helps facilitate open source projects through the use of merge and pull requests.
-- Can be utilized via the command line or via built in integration through an IDE. Not all functionality is easily available through built in integration however.
+- Can be utilized via the command line or via built in integration through an IDE. Not all functionality is easily available through built-in integration however.
 
 ## GitHub Best Practices
 
