@@ -1,6 +1,6 @@
 ## Project 2: Hangman Game
 
-Objective: Build a Hangman game using React, where players guess letters to form a word. The game is won if the word is correctly guessed before the player runs out of attempts.
+Objective: Build a Hangman game where players guess letters to form a word. The game is won if the word is correctly guessed before the player runs out of attempts.
 
 Example: https://www.hangmanwords.com/play
 

@@ -1,6 +1,6 @@
 ## Project 3: Fake Online Store
 
-Objective: Create a mock online store using React, resembling platforms like Amazon or eBay. The store should display products, allow users to add them to a cart, and view the cart.
+Objective: Create a mock online store resembling platforms like Amazon or eBay. The store should display products, allow users to add them to a cart, and view the cart.
 
 Example: https://www.amazon.com
 

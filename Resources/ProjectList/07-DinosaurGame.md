@@ -1,5 +1,5 @@
 ## Project 7: Dinosaur Run Game Remake
-Objective: Remake Google Chrome's "Dinosaur Run" game using React. The game activates when offline in Chrome, featuring a dinosaur that jumps over obstacles.
+Objective: Remake Google Chrome's "Dinosaur Run" game. The game activates when offline in Chrome, featuring a dinosaur that jumps over obstacles.
 
 Example: https://dinosaur-game.io
 

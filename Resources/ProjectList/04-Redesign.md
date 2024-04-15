@@ -1,5 +1,5 @@
 ## Project 4: Website Redesign/Remake
-Objective: Choose an existing website and redesign or remake it using React. Focus on improving the user interface, user experience, or adding new features.
+Objective: Choose an existing website and redesign or remake it. Focus on improving the user interface, user experience, or adding new features.
 
 As an example, redesign or remake Midland's website: https://www.midlandu.edu
 

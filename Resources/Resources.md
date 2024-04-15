@@ -1,4 +1,4 @@
-To view this file as a Markdown file, hold down CTRL, Shift, and press V
+To view this markdown file a bit easier, click anywhere in the file, and hold down CTRL, Shift, and press V
 
 ## HTML/CSS Resources
 
@@ -25,7 +25,7 @@ To view this file as a Markdown file, hold down CTRL, Shift, and press V
 
 - https://chat.openai.com
     - Keep in mind not to believe everything ChatGPT says.
-    - Make sure you understand the code. As you're learning, nothing is worse than copy and pasting code from other sources if you don't understand it. If it gives you some code that you don't know, you can ask it to explain the code or try Googling it. This also applies to other code you copy from places like StackOverflow.
+    - Make sure you understand the code. As you're learning, nothing is worse than copying and pasting code from other sources if you don't understand it. If it gives you some code that you don't know, you can ask it to explain the code or try Googling it. This also applies to other code you copy from places like StackOverflow.
 
 - Often, just Googling the error/problem is the best method
 

@@ -1,6 +1,6 @@
 ## Project 1: Memory Game
 
-Objective: Create a memory game using React, where players flip cards to find pairs. The game ends when all pairs are found.
+Objective: Create a memory game where players flip cards to find pairs. The game ends when all pairs are found.
 
 Example: https://www.helpfulgames.com/subjects/brain-training/memory.html
 

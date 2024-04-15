@@ -1,5 +1,5 @@
 ## Project 6: Poker Game
-Objective: Develop a basic poker game using React where players can play a simplified version of Texas Hold'em poker against the computer.
+Objective: Develop a basic poker game where players can play a simplified version of Texas Hold'em poker against the computer.
 
 Example: https://www.247freepoker.com
 

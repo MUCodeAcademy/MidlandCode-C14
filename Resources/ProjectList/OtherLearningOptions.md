@@ -3,7 +3,7 @@
 If you need more projects or just hated all of those other suggestions, here's a brief selection of some more projects you can make.
 
 - Personal Portfolio Website: Create your own portfolio website showcasing your projects, resume, and contact information.
-- Weather Dashboard: Create a React app that displays real-time weather information using an external API. It could include features like current weather conditions, forecasts, weather maps, and possibly integration with the user's location.
+- Weather Dashboard: Create a site that displays real-time weather information using an external API. It could include features like current weather conditions, forecasts, weather maps, and possibly integration with the user's location.
 - Blog Platform: A simple blog platform. Users can create, edit, and delete posts, and potentially add comments.
 - Recipe Finder: An application that allows users to search for recipes based on ingredients they have. This can be a good way to practice working with external APIs, since there are several free recipe APIs available.
 - Fitness Tracker: A fitness app where users can log exercises, track progress, and set fitness goals. This could also include features like workout suggestions and tracking nutritional information.
@@ -12,7 +12,7 @@ Ultimately, it's up to you. If you have another idea, go make that! It's the bes
 
 ## Other Ways to Learn
 
-As mentioned at the very beginning of the cohort, there's a lot of websites that can let you practice making projects or programming questions. Here are a few:
+There's a lot of websites that can let you practice making projects or programming questions. Here are a few:
 
 - https://www.freecodecamp.org/news/tag/projects - List of extra projects with instructions.
 
@@ -34,8 +34,8 @@ There are many programming books, but here are 3 that I've read and are pretty p
 
 ## If you want to learn another language
 
-Joel Murach has a book for basically every language, however they are for beginners (so I wouldn't recommend reading the JavaScript or SQL ones). But, it's a good starting point for the other languages.
+Joel Murach has a book for basically every language, however they are for beginners (so I wouldn't recommend reading the JavaScript or SQL ones, since we cover those in class). But, it's a good starting point for the other languages.
 
 They're all called Murach's (language). For example, *Murach's Java Programming*: https://www.murach.com/shop/murach-s-java-programming-6th-edition-detail
 
-However, in my opinion, the best way to learn another language is to read the documentation and experiment with writing it. Since you already know one language (JavaScript), it's relatively easy to pick up other ones, so you might not want to spend your money on an entire book.
+**However**, in my opinion, the best way to learn another language is to read the documentation and experiment with writing it. Since you already know one language (JavaScript), it's relatively easy to pick up other ones, so you might not want to spend your money on an entire book.

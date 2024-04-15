@@ -3,13 +3,16 @@
 - git -v
 
 ## Add your email and username to VSCode
+
 - git config --global user.name "Your username"
 - git config --global user.email "email@email.com"
+
 ## Cloning a Repository
 
 - git clone URL
 - cd repositoryName
 - Open the folder up in a new Visual Studio window
+
 ## Adding Local Files to Existing GitHub Repository
 
 - git init -b main
@@ -38,4 +41,4 @@
 - git remote rm remote_repository_name
 
 ## Open the terminal
-- CTRL and pressing tilde (button to the left of the 1 key on the top row)
+- CTRL and pressing tilde (the button to the left of the 1 key on the top row, looks like this ~)

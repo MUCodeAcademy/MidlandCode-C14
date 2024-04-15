@@ -1,5 +1,5 @@
 ## Project 5: Snake Game
-Objective: Build the classic 'Snake' game using React. The player controls a snake to eat items on the screen, growing longer with each item, and must avoid colliding with the game boundaries or itself.
+Objective: Build the classic 'Snake' game. The player controls a snake to eat items on the screen, growing longer with each item, and must avoid colliding with the game boundaries or itself.
 
 Example: https://playsnake.org
 
