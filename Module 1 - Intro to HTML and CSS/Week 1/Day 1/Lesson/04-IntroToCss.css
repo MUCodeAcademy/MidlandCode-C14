@@ -1,0 +1,56 @@
+header {
+  font-family: "Helvetica", sans-serif;
+}
+
+/* selector
+  .class
+  #id
+  element
+ {
+    attribute: value;
+} */
+
+p {
+  font-family: "Roboto", -apple-system, "San Francisco", "Segoe UI",
+    "Helvetica Neue", sans-serif;
+}
+
+.red-text {
+  color: red;
+}
+
+.blue-text {
+  color: blue;
+}
+
+.link {
+  display: inline-block;
+  margin: 2px;
+  width: calc(33% - 6px);
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  text-decoration: none;
+  color:black;
+}
+
+.center {
+  text-align: center;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+img {
+  display: block;
+  height: 200;
+  width: 400px;
+  margin: auto;
+}
