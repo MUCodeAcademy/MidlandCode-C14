@@ -1,0 +1,205 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #0033A0;
+    color: white;
+    text-align: center;
+    height: 5vh;
+    margin-bottom: 5px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+nav a {
+    color: white;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.current {
+    background-color: #2266f9;
+}
+
+/* Selects nav a tags if it doesn't have a .current class */
+nav a:not(.current):hover {
+    background-color: #4f6ba6;
+}
+
+.mainContainer {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    color: black;
+    font-size: 16px;
+}
+
+/* Main Page CSS */
+
+.yellowContainer {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    width: 70vw;
+    height: 85vh;
+    background-color: purple;
+    padding: 5px;
+}
+
+.yellowContainer > div {
+    margin: 5px;
+    flex-basis: 32%;
+    height: 20%;
+    background-color: yellow;
+}
+
+.greenContainer {
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    height: 70vh;
+    background-color: red;
+}
+
+.greenContainer > div {
+    flex-basis: 90%;
+    height: 20%;
+    background-color: #008000;
+    margin: 5px;
+}
+
+@media (max-width: 680px) {
+    .mainContainer {
+        flex-direction: column;
+    }
+    .yellowContainer {
+        width: 100vw;
+    }
+    .yellowContainer > div {
+        height: 15%;
+    }
+    .greenContainer {
+        margin-bottom: 100px;
+    }
+}
+
+/* For Sale Page CSS */
+
+.sideContainer {
+    display: flex;
+    flex-direction: column;
+    width: 5vw;
+    height: 75%;
+    background-color: purple;
+    margin: 10px;
+    margin-top: 0px; /* Doing this because I want margins on each side except the top, so it will override the above margin property */
+}
+
+.sideContainer > div {
+    flex-basis: 90%;
+    height: 5%;
+    margin: 5px;
+    background-color: yellow;
+}
+
+.imageContainer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90vw;
+    height: 100%;
+    background-color: red;
+}
+
+.imageContainer > div {
+    color: white;
+    width: 45%;
+    height: 14.5vh;
+    margin: 10px;
+    background-color: green;
+    padding: 5px;
+}
+
+.imageContainer > div > img {
+    width: 15%;
+    float: left;
+    height: 60%;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+/* Contact Us CSS */
+
+/* Super annoying, but in order to center the form, we need to put it in another div and align it that way */
+.formCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    background-color: red;
+    width: 80vw;
+    height: 83vh;
+}
+
+/* This will only select inputs with type=text */
+input[type="text"], textarea {
+    font-size: larger;
+    color: white;
+    background-color: purple;
+    margin: 5px;
+    height: 20px;
+}
+
+textarea {
+    height: 70%;
+}
+
+.radios {
+    display: flex;
+    justify-content: space-between;
+}
+
+.radios > div {
+    background-color: yellow;
+    width: 100%;
+    margin: 5px;
+}
+
+button {
+    background-color: aqua;
+    align-self: flex-end;
+    width: 50%;
+    height: 5%;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #A00000;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
