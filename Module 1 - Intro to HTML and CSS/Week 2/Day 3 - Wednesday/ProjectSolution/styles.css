@@ -83,6 +83,7 @@ nav a:not(.current):hover {
     margin: 5px;
 }
 
+/* I only did a media query for the main page - try doing some media queries for the other sections */
 @media (max-width: 680px) {
     .mainContainer {
         flex-direction: column;
