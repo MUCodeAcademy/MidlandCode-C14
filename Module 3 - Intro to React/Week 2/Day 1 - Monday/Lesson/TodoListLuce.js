@@ -32,7 +32,6 @@ function TodoList() {
     return (
         <div>
             <h1>Todo List</h1>
-            <img src="/logo192.png" />
             <ul>
                 {/* Loops through the list state and makes an li for each one */}
                 {list.map((item, index) => (
