@@ -113,12 +113,24 @@ export function ThemeProvider(props) {
 
   // const [theme, setTheme] = useState("dark");
 
+  // Functions could be anything, but something simple like setting the theme would be:
+
+  /*
+
+    function addTheme(theme) {
+      setTheme(theme);
+    }
+
+  */
+
   // We return the created Provider here
   return (
-    <ThemeContext.Provider>
-      <!-- This line allows for any child components to render // Your child
-      components will be the components inside of the provider when called upon
-      think child html elements -->
+    <ThemeContext.Provider value={{ 
+      /* In the value is what you want to pass to the child components. In this example, probably the theme and addTheme functions. */ 
+    }}>
+      <!-- This line allows for any child components to render. Your child
+      components will be the components inside of the provider when called upon.
+      Think child html elements -->
       {props.children}
     </ThemeContext.Provider>
   );
