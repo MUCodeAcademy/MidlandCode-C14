@@ -2,6 +2,8 @@
 
 #### Finish setting up the database for the giphy app:
 
+The backend will have all the endpoints (like app.post('/register') and others). The frontend will have fetches to those endpoints. For example, if the user clicks the 'register' button, it will fetch to localhost:8080/register, and send the register data to the server and receive a response.
+
 - Try to make an endpoint for register, and another for login
     - If the user registers, add the username/password to the table
     - If the username already exists, tell that to the user (assuming you want usernames to be unique)
