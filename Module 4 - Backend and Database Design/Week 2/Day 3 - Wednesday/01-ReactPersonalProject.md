@@ -8,6 +8,7 @@ This application should allow for you to display your React skills learned so fa
 - Utilize some sort of animation. This can be one you have already done, but add at least one animation to the page.
 - Feel free to utilize some sort of styling library like MUI or any other one you want.
 - Follow best practices for separation of files and folder structure.
+- Add a database for any information you need to store.
 - Add at least one test. If you have extra time, feel free to add more.
     - We'll cover testing next week, so you can wait to do this one
 - Challenge yourself.
