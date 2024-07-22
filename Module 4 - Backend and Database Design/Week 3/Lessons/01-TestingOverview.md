@@ -11,7 +11,7 @@ Testing is a huge part of coding. We haven't touched it until now because it add
 
 ## When to Test
 
-One of the big things about testing is knowing when to test and when not to. The 'when not to' is partially decided by your employer and partially decided by common sense. One of the big things to think about when testing is this: `What will happen if this breaks?`. Sometimes people go overboard with testing, and while that's not inherently a problem, it can lead to wasted time. Think of it in non programming terms - let's say you have to do a series of tasks at a job and you want to make sure you can actually do them. Which ones below make sense to actually test?
+One of the big things about testing is knowing when to test and when not to. The 'when not to' is partially decided by your employer and partially decided by common sense. One of the big things to think about when testing is this: `What will happen if this breaks?`. Sometimes people go overboard with testing, and while that's not inherently a problem, it can lead to wasted time. Think of it in non-programming terms - let's say you have to do a series of tasks at a job and you want to make sure you can actually do them. Which ones below make sense to actually test?
 
 1. Clocking in for the Day
 2. Washing your hands

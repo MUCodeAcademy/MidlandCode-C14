@@ -1,13 +1,16 @@
 # Unit Testing
 
-Now that we know some basics for testing, let's take a look at what we need to do to add testing to all of our code. When you're writing tests, we need to first think about what all we need to test. Let's think about our todo application or more specifically some of the components for it. We need to remember to keep track of ONLY the things that make sense to test that only that component has. Once we know what we need to test, let's get to testing.
+Now that we know some basics for testing, let's take a look at what we need to do to add testing to all of our code. Here are the docs for the testing library: 
+https://testing-library.com/docs/react-testing-library/intro
+
+(you don't need to do an `npm install` for these packages, it installs itself along with other packages when you do `npx create-react-app`)
 
 ## Steps
 
 Conceptually, you want to think of testing in these steps:
 
-1. Create a test file for the part of the app you want to test.
-2. Render the page you want to test within the test.
+1. Create a specific test file for the page/component that you want to test.
+2. Render the page/component you want to test within the test file.
 3. Mock the functionality of the page (for example, if you're testing a login page, you will write a test which will type in the username/password inputs, and click the login button).
 4. See if the test was successful.
 
@@ -15,7 +18,7 @@ All of our tests are going to follow that same pattern, but with different funct
 
 ## Testing Rendering
 
-When you're trying to see what kind of things are rendered, you need to be able to grab different elements and see what content is inside of them and rendered to the browser. There are several ways to grab different elements, but they are all done by grabbing the needed key off of the `render` function built into the testing library. One thing to note is that ideally you should be grabbing by text or element or something the user will actually see. Sometimes, however, that is not possible. One option is to use `getByTestId` which can be implemented by the following two steps:
+When you're trying to see what kind of things are rendered, you need to be able to grab different elements and see what content is inside of them and rendered to the browser. There are several ways to grab different elements, but they are all done by grabbing the needed key off of the `render` function built into the testing library. One thing to note is that ideally you should be grabbing by text or element or something the user will actually see.
 
 An example of a render test for a component might look like this:
 
@@ -43,7 +46,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import ReactTestUtils from "react-dom/test-utils";
 
-// ... Inside the describe
+// Before each test...
 beforeEach(() => {
   container = document.createElement("div");
   document.body.appendChild(container);
@@ -53,6 +56,7 @@ beforeEach(() => {
   someElement = container.querySelector("someElement");
 });
 
+// After each test...
 afterEach(() => {
   document.body.removeChild(container);
   container = null;
@@ -91,7 +95,7 @@ As you can see, you can simply trigger the functionality directly with the `fire
 
 ## Mocking Tests
 
-Jest allows you to mock functions. This allows you to "pretend" to call a function and hard-code a value and/or see how many times it was called and what the arguments were. This can be incredibly useful to make sure that your functions are called appropriately. You can create a simple mock with `const fn = jest.fn();` and then access any mocked data with it or see how many times it was called, what arguments were passed. Assume for a moment you have a function that gets passed an argument and you want to make sure it was actually called and or passed correct data. You can simply access the values it has been passed (assuming you mocked it correctly) with:
+Jest allows you to mock functions. This allows you to "pretend" to call a function and hard-code a value and/or see how many times it was called and what the arguments were. This can be incredibly useful to make sure that your functions are called appropriately. You can create a simple mock with `const fn = jest.fn();` and then access any mocked data with it or see how many times it was called, or what arguments were passed. Assume for a moment you have a function that gets passed an argument and you want to make sure it was actually called and or passed correct data. You can simply access the values it has been passed (assuming you mocked it correctly) with:
 
 ```javascript
 // creates a function that mocks your real function
