@@ -5,7 +5,7 @@ In general, testing context can be annoying depending on how complex your contex
 ```js
 import React from 'react';
 import { render, fireEvent } from '@testing-library/react';
-import { UserProvider, useUserContext } from './UserContext'; // Adjust import paths as needed
+import { UserProvider, useUserContext } from './UserContext';
 
 // Mocking useUserContext
 jest.mock('./UserContext', () => ({
