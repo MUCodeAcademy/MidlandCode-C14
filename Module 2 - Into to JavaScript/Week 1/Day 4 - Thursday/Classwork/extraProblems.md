@@ -1,4 +1,4 @@
-# Extra LeetCode Problems if you want more practice
+# Extra LeetCode Problems if you want a challenge
 
 This is a list of LeetCode problems that you should be able to do with the knowledge you have now for additional practice. However, there are a lot of JavaScript functions we haven't learned yet, and those will be helpful to solve some of them (for example, the [indexOf](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf) method will probably be useful). 
 

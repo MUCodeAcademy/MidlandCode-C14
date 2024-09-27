@@ -16,16 +16,16 @@ JavaScript is technically a scripting language, but it's also one of many progra
 
 **Do not confuse JavaScript and Java.** Despite the name, JavaScript has only a few similarities to the Java programming language. Java started as a project in 1991 and released in 1995, and was very popular, so it may have been a marketing tactic for Netscape to name their language after Java.
 
-## Most common uses for different programming languages
+## Examples of different programming languages
 
 **JavaScript**: Heavily used for web development. Can also be used for other types of software, but not as common.
 
-**Java**: Released in 1995, and joked about as the 'banking application' language since it's commonly used for banking software. However, it's also used for many other types of business software, and it's popular as a backend language for servers.
+**Java**: Released in 1995, and is used most commonly in banking technologies. However, it's also used for many other types of business software, and it's popular as a backend language for servers.
 
 **C++**: Created in 1979 as an upgrade to regular C programming. Most popularly used for building large software infrastructure, like operating systems, web browsers, machine learning, and scientific research. C++ is also popular in video game development and virtual reality, along with C#.
 
-**C#**: The creators of Java tried to sue Microsoft for making changes to Java, so, in the year 2000, Microsoft decided to make their own language known as C#. It's a general purpose programming language, so it's pretty popular for any kind of software. It's used heavily in conjunction with the .NET framework, also made by Microsoft.
+**C#**: The creators of Java tried to sue Microsoft for making changes to Java, so in the year 2000, Microsoft decided to make their own language known as C#. It's a general purpose programming language, so it's pretty popular for any kind of software. It's used heavily in conjunction with the .NET framework, also made by Microsoft.
 
-**Python**: Created in 1991, Python is a popular choice for programmers due to it's relatively simplistic coding style. It's mostly used for automation and data analytics. Python can also be an alternative to JavaScript for web development, but JavaScript is far more common.
+**Python**: Created in 1991, Python is a popular choice for programmers due to its relatively simplistic coding style. It's mostly used for automation and data analytics. Python can also be an alternative to JavaScript for web development, but JavaScript is far more common.
 
 If you're curious which languages are the most popular at any given time, you can check out the [TIOBE Index](https://www.tiobe.com/tiobe-index) which is updated monthly.
