@@ -120,7 +120,7 @@ function Login() {
                     'Content-Type': 'application/json' 
                 },
                 body: JSON.stringify(data)
-            });
+            })
             .then(response => response.json())
             .then(response => {
                 if (response.status === 200) {

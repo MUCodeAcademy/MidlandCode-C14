@@ -5,14 +5,14 @@ First, implement flux/reducers in the Giphy app. Might want to take a look at ge
 To finish the functionality of our app, here's what's left:
 
 1. Display the gifs to the page when they search for them.
-2. Add the ability to favorite and unfavorite gifs.
+2. Add the ability to favorite and unfavorite gifs. (Context file)
 3. Display those on the favorites page.
 
 If you've completed it, here are some optional things you can try:
 
 1. Add a logout button
 2. Try to save the user's favorites when they logout and log back in
-    - This will be difficult to do, we'll learn better ways to do this in module 5
+    - This will be difficult to do, we'll learn better ways to do this in Module 5
 3. Fully stylize it with styled components and/or a different library like MUI
 
 ## Optional

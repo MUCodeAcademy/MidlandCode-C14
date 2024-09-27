@@ -93,7 +93,7 @@ test("increments on click", () => {
 
 As you can see, you can simply trigger the functionality directly with the `fireEvent` functionality built into `@testing-library/react`.
 
-## Mocking Tests
+## Mocking Functions
 
 Jest allows you to mock functions. This allows you to "pretend" to call a function and hard-code a value and/or see how many times it was called and what the arguments were. This can be incredibly useful to make sure that your functions are called appropriately. You can create a simple mock with `const fn = jest.fn();` and then access any mocked data with it or see how many times it was called, or what arguments were passed. Assume for a moment you have a function that gets passed an argument and you want to make sure it was actually called and or passed correct data. You can simply access the values it has been passed (assuming you mocked it correctly) with:
 

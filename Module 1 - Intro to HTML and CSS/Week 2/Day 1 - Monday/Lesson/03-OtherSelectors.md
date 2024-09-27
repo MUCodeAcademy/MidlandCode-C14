@@ -1,8 +1,8 @@
-## Pseudo-Classes and Combinators
+# Pseudo-Classes and Combinators
 
 What if you want only SOME of the selector to have the effects of the style rules? What if you want every div EXCEPT divs that have a specific class or ID? What about styling when someone is hovering over a link or button? What about every odd or even or every fifth div? This is where pseudo classes and combinators come into effect.
 
-### Pseudo-Classes
+## Pseudo-Classes
 
 Pseudo-classes follow the same format (regardless of which one it is). You start with the selector and then follow it with a `:` and then the selector rule. So any div that is hovered over would be `div:hover`. A complete list of options can be found here: [Pseudo-Classes](https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Pseudo-classes_and_pseudo-elements) but the most used ones are:
 

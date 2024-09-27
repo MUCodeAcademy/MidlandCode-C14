@@ -2,7 +2,7 @@
 
 First, install Docker: https://www.docker.com/products/docker-desktop
 
-Optional: Install the Docker VSCode extenstion
+Optional: Install the Docker VSCode extention
 
 ## How can Docker help in development?
 
@@ -20,11 +20,11 @@ This is the TL:DR from that guide:
 
 1. Install [Docker Desktop](https://www.docker.com/products/docker-desktop).
 2. Run `docker init` in the terminal. This will create some files for you, you just need to give it some information so that it can configure those files. You can also manually set those files up yourself, but it's easier with `docker init`.
-6. Build and start the containers using `docker compose up --build -d`. The -d is for running it in the background and is optional.
-7. (optional) If you have errors while running this, try running `docker-compose down`, then `docker-compose up -d`.
-8. Check the status of your containers using `docker-compose ps`. This will show you if the containers are running properly.
-9. Open a web browser and navigate to `http://localhost:3000`. This should load your frontend application if it's set up correctly.
-10. Test the backend. You can use tools like Postman or CURL to make requests to `http://localhost:8080` (or whatever port your server is running on) and verify the responses.
+3. Build and start the containers using `docker compose up --build -d`. The -d is for running it in the background and is optional.
+4. (optional) If you have errors while running this, try running `docker-compose down`, then `docker-compose up -d`.
+5. Check the status of your containers using `docker-compose ps`. This will show you if the containers are running properly.
+6. Open a web browser and navigate to `http://localhost:3000`. This should load your frontend application if it's set up correctly.
+7. Test the backend. You can use tools like Postman or CURL to make requests to `http://localhost:8080` (or whatever port your server is running on) and verify the responses.
 
 ## More Advanced Development with Docker
 

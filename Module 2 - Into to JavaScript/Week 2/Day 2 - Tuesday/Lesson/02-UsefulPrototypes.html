@@ -38,6 +38,8 @@
       arrayOneCopy.pop();
       console.log(`Line 33: Array one: ${arrayOne}, Array one copy: ${arrayOneCopy}`); //even though we never touched array 1
 
+      let trueCopy = arrayOne.slice();
+
       // Other useful Array Prototypes:
       // Any of these that needs a function as an argument can take an arrow function (both examples will be provided)
       let newArray = [1, 4, 5, 3, 9, 7, 8, 6, 2, 9];
@@ -80,9 +82,9 @@
       //     })
       // );
       console.log(newArray);
-      //Reverse, join, multiple others for use
+      // Reverse, join, multiple others for use
 
-      //String Prototypes
+      // String Prototypes
       let usersName = prompt("What is your name?");
       let nameArray = usersName.split("");
       console.log(nameArray);
@@ -90,8 +92,9 @@
       let reverseName = nameArray.join("");
       console.log(reverseName);
 
-      //String useful prototypes
-      //length, charAt, indexOf, includes, split, substring
+      // String useful prototypes
+      // length, charAt, indexOf, includes, substring
+
     </script>
   </head>
 

@@ -2,7 +2,7 @@
 
 Now that you know about state, let's talk about state in functional components. It used to be that you couldn't update state in a functional component, but that has since changed with the addition of Hooks to React. Hooks, which we'll talk even more about next week, allow you to do things in functional components that used to be exclusive to classes. You also can abstract out code as needed and clean up your code immensely. Let's take a look at some code WITHOUT the proper design pattern.
 
-Link to list of hooks in React: https://react.dev/reference/react 
+Link to list of hooks in React: https://react.dev/reference/react/hooks 
 
 Link to the useState hook documentation: https://react.dev/reference/react/useState
 

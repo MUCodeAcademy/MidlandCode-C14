@@ -17,12 +17,15 @@
     <!-- If you want to write JavaScript in an HTML file, write it between script tags -->
     <script>
       
-      //  Variable Declaration
+      // Variable Declaration
       const thisIsAConstant = 1; //This will not be reassigned
       let yearNumber = 2023; //This may be reassigned
+      yearNumber = 2024; // yearNumber is now 2024
+      // thisIsAConstant = 2;  This will give an error
       let yearString = "2023"; //not the same as yearNumber
       console.log(yearNumber);
       console.log(yearString);
+      console.log("This is a message in the console");
 
       // PRIMITIVE TYPES (different types of variables)
       // integer (1)
@@ -38,7 +41,7 @@
       // Types are dynamic in JavaScript, meaning they can be reassigned to a different type 
       // (this is not true in all programming languages)
 
-      data = 13; // data is initialized as an integer
+      let data = 13; // data is initialized as an integer
       data = "word"; // data is now a string
       data = true; // data is now a boolean
 
@@ -47,7 +50,7 @@
       console.log(yearNumber);
 
       //  Array object
-      //                      0       1          2        3
+      //                      0         1        2        3
       let typesOfBears = ["Grizzly", "Black", "Brown", "Polar"];
       let dogs = ["Husky", "Bulldog", "Beagle"];
       console.log(dogs[0]);
@@ -89,26 +92,31 @@
       
       theMatrix.director = "The Wachowskis";
 
+      console.log(theMatrix);
+
       //simple math
       let firstNumber = 2;
       let secondNumber = 3;
 
       let result = 2 + 3;
-      let secondResult = two + three; // 2 + 3
+      let secondResult = firstNumber + secondNumber; // 2 + 3
 
       let thirdNumber = 2 * 3;
-      let thirdResult = two * three;
+      let thirdResult = firstNumber * secondNumber;
+
+      let three = 3;
 
       three++; //adds 1
-      three+=1; //adds 1
-      three--; //substracts 1
+      three+=4; //adds 4
+      three--; //subtracts 1
+      three-=4; //subtracts 4
 
       console.log(six / three); // 2
       console.log(six - three); // 3
 
       //MODULO!
-      let sixModuleThree = 6 % 3;
-      let fiveModuleThree = five % three; // 0
+      let sixModuleThree = 6 % 3; // 0
+      let fiveModuleThree = 5 % 3; // 2
 
       //String concatenation (addition)
       let firstName = "Justin";

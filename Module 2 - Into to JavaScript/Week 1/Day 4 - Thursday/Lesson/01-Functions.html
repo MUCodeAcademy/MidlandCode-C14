@@ -32,8 +32,9 @@
       }
 
       addition(number1, number2);
-      // output = addition(number1, number2);
-      // console.log(`output is ${output}`);
+      let output = addition(number1, number2);
+      console.log(`output is ${output}`);
+      console.log(addition(number1, number2));
 
       function greeting(name, age, country) {
         if (age > 50) {
@@ -87,7 +88,7 @@
         return b;
 
         // This is called a ternary operator. It is functionally the same as the one code above
-        return a >= b ? a: b;
+        return a >= b ? a : b;
       }
 
       // Recursion

@@ -49,9 +49,9 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
                 <!-- The <Routes> will render the first route that matches the URL.
                 So, if we try to navigate to '/login' or '/signup', it will always just render '/' instead.
                 Using the 'exact' parameter means it will only return '/' if the path is an exact match -->
-                <Route exact path="/" element={<h1>Some Title</h1>} /> 
                 <Route path="/login" element={<Login prop1={value}/>} />
                 <Route path="/signup" element={<Signup prop1={value}/>} />
+                <Route path="/" element={<h1>Some Title</h1>} /> 
               </Routes>
           </main>
     </div>

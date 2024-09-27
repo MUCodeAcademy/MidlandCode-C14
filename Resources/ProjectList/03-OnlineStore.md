@@ -4,7 +4,7 @@ Objective: Create a mock online store resembling platforms like Amazon or eBay. 
 
 Example: https://www.amazon.com
 
-(Your store does not need to be nearly as complicated as Amazon's - you're just one person and Amazon has thousands of software engineers. Just make the product display and cart functionalities).
+(Your store does not need to be nearly as complicated as Amazon's - you're just one person and Amazon has literally thousands of software engineers. Just make the products display and cart functionalities).
 
 ### Requirements:
 

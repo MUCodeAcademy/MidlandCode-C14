@@ -127,6 +127,7 @@ export function ThemeProvider(props) {
   return (
     <ThemeContext.Provider value={{ 
       /* In the value is what you want to pass to the child components. In this example, probably the theme and addTheme functions. */ 
+      theme, addTheme
     }}>
       <!-- This line allows for any child components to render. Your child
       components will be the components inside of the provider when called upon.
@@ -148,6 +149,14 @@ root.render(
 ```
 
 - Any component can now use the context just as in our previous example.
+
+If you want to use that in a child component
+
+```js
+import { useThemeContext } from './Context/ThemeContext';
+
+const { theme } = useThemeContext();
+```
 
 # More Options
 

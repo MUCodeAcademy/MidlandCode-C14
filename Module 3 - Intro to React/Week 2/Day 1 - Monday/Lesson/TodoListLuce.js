@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 function TodoList() {
     const tasks = [
@@ -11,6 +11,12 @@ function TodoList() {
     // If you want a function to sort it, it would have the same .sort logic, just in a button.
     const [list, setList] = useState(tasks.sort((a, b) => a.localeCompare(b)));
     const [taskName, setTaskName] = useState("");
+
+    useEffect(() => {
+        // Update the counter state whenever they type in the input
+
+    
+    }, [taskName]); // Whenever taskName changes, update the counter
 
     function addTask() {
         if (taskName == "") {

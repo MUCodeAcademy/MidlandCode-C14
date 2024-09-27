@@ -42,7 +42,7 @@ function FriendStatusWithCounter(props) {
 
   useEffect(() => {
     document.title = `You clicked ${count} times`;
-  }, [count])
+  }, [count]);
 
   // This will subscribe to a friend's online status when the component mounts
   // When the component unmounts, it unsubscribed or when the friend's 'id' changes
@@ -85,6 +85,15 @@ useEffect(() => {
 }, []);
 ```
 
+```js
+useEffect(() => {
+
+  return () => {
+    // It will run this code when the component unmounts
+  }
+}, []);
+```
+
 One way to think of it is that the effect will run on mount and then whenever `undefined` changes from being `undefined` (which will never happen).
 
 These are the main things to remember. If you keep these in mind, useEffect will be easy to use: 
@@ -92,3 +101,4 @@ These are the main things to remember. If you keep these in mind, useEffect will
 - The code inside the hook will run when one of the dependencies has changed ([value1, value2, ...]).
 - If the dependency array is empty ('[]'), the effect will only run once, when the component mounts.
 - If there is no dependency array, the effect will run after every render.
+- If there's a return in the useEffect, it will run whatever code is in there when the component unmounts.

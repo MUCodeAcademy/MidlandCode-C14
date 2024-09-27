@@ -24,6 +24,7 @@ io.on("connection", (socket) => {
   // This is how you would handle if a specific connection sent something such as a chat message
   socket.on("chat message", () => {
     // send the chat message
+    io.emit("eventName", data);
   });
 
   // This would emit that data to any current connection
@@ -69,10 +70,11 @@ It really is that straightforward. There are more things you can do, such as cho
 The above can also be used in React. While it isn't considered a good programming pattern, you could very easily just take that code and put it into your needed component and be done with it. However, that causes a different problem as it might cause re-renders depending on where you put it. The way you would ultimately want to handle sockets client side is with some sort of custom hook. That might look something akin to:
 
 ```javascript
-import { useEffect, useState } from "react";
+import { useEffect, useState, useRef } from "react";
 
 const useSocketHook = (socket) => {
   const [stateItem, setStateItem] = useState([]);
+  const socketRef = useRef();
 
   useEffect(() => {
     socketRef.current = socketIOClient('http://localhost:8080');

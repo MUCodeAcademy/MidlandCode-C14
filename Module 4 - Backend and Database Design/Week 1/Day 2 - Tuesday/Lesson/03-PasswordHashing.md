@@ -13,7 +13,7 @@ Scenerio: you're on a site and you request a password reset. The website then ju
 - Because of this, passwords are converted to a hashed value and then stored in the database. When a plain text password is provided via a login request or equivalent, the order of operations is as follows:
   1. Plain text password is taken from `req` and turned into a hashed value.
   2. User with the username provided is found in the database and the saved hashed password is retrieved.
-  3. The two hashed values (one from the DB one form the req) are compared and depending on if they equal or not, the user is allowed access or a wrong password/username message is sent to the front end.
+  3. The two hashed values (one from the DB one from the req) are compared and depending on if they equal or not, the user is allowed access or a wrong password/username message is sent to the front end.
 
 ## How to hash
 

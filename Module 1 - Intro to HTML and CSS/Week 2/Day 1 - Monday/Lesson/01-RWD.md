@@ -2,11 +2,11 @@
 
 Responsive web design allows for a page to be a pleasant experience regardless of what device is being used. We'll cover a lot of topics that are important but there are SO many more that you can learn. A lot of this information was taken from [Googles RWD intro](https://web.dev/responsive-web-design-basics/) as it provides a clear and concise overview of RWD.
 
-## The Basics -
+## The Basics
 
 ### Setting the viewport
 
-Most IDES do this automatically with the html boilerplate but some older sites might not have it in already. It can be done with the following:
+Most IDEs do this automatically with the html boilerplate, but some older sites might not have it in already. It can be done with the following:
 
 ```html
 <meta name="viewport" content="width=device-width, initial-scale=1" />

@@ -40,7 +40,7 @@ By surrounding the variable name in `[]` it will extract the 0th index and save 
 Similarly to the above, you can strip out (without editing the object itself) the values of individual keys. Take the following object and code:
 
 ```javascript
-const me = { first: "Justin", last: "Luce", age: 23 };
+const me = { first: "Justin", last: "Luce", age: 24 };
 
 const { first, age } = me;
 ```

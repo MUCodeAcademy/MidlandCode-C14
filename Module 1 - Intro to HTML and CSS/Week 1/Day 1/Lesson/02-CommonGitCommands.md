@@ -41,4 +41,4 @@
 - git remote rm remote_repository_name
 
 ## Open the terminal
-- CTRL and pressing tilde (the button to the left of the 1 key on the top row, looks like this ~)
+- CTRL and pressing backtick (the button to the left of the 1 key on the top row, looks like this: ` )

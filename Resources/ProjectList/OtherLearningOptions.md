@@ -1,4 +1,4 @@
-## More Projects
+# More Projects
 
 If you need more projects or just hated all of those other suggestions, here's a brief selection of some more projects you can make.
 
@@ -19,6 +19,8 @@ There's a lot of websites that can let you practice making projects or programmi
 - https://www.frontendmentor.io - Web page challenges.
 
 - https://leetcode.com - Algorithms and problem solving. Good for preparing for coding interviews.
+
+- https://www.codingame.com - Basically the same as leetcode, but more of a video game.
 
 - https://www.coursera.org - Extra lessons in different computer science topics that grant you certificates and/or college credit. You have to pay for most though. I'd recommend taking an [Algorithms course](https://www.coursera.org/learn/algorithms-part1) or a [UX Design course](https://www.coursera.org/professional-certificates/google-ux-design)
 
